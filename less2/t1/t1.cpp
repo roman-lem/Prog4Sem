@@ -10,10 +10,10 @@ int main(){
   int avg =0;
 
   cin >> n;
+  tempr.resize(n)
 
   for(int i = 0; i < n; i++){
-    cin >> temp;
-    tempr.push_back(temp);
+    cin >> tempr[i];
   }
 
   for(int i: tempr){
