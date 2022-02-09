@@ -10,7 +10,7 @@ int main(){
   int avg =0;
 
   cin >> n;
-  tempr.resize(n)
+  tempr.resize(n);
 
   for(int i = 0; i < n; i++){
     cin >> tempr[i];
